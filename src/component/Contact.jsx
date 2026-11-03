@@ -28,7 +28,7 @@ function Contact() {
                     <p data-aos="zoom-in-up" className=' text-xs sm:text-lg md:text-xl lg:text-2xl font-serif font-bold text-zinc-200 text-center'>mvpsutharson0-wq</p>
                 </div>
                 <div className='mt-7 mb-7 '>
-                    <p data-aos="zoom-in-up" className='text-end text-xs   sm:text-3xl md:text-3xl lg:text-3xl font-bold font-serif text-zinc-200 me-10 sm:me-20 md:me-20 lg:me-20 '>➝</p>
+                    <p data-aos="zoom-in-up" className='text-end text-xs   sm:text-3xl md:text-3xl lg:text-3xl font-bold font-serif text-zinc-200 me-10 sm:me-20 md:me-20 lg:me-20 hover:text-zinc-600'>➝</p>
                 </div>
             </div>
             <div className='grid grid-cols-3 bg-black   ms-4 sm:ms-10 md:ms-10 lg:ms-10 me-4 sm:me-10 md:me-10 lg:me-10 border border-zinc-500 hover:cursor-pointer hover:bg-zinc-900'>
@@ -39,7 +39,7 @@ function Contact() {
                     <p data-aos="zoom-in-up" className='text-xs sm:text-lg md:text-2xl lg:text-2xl font-serif font-bold text-zinc-200 text-center'>SUTHARON U</p>
                 </div>
                 <div className='mt-7 mb-7 '>
-                    <p data-aos="zoom-in-up" className='text-end text-xs   sm:text-3xl md:text-3xl lg:text-3xl font-bold font-serif text-zinc-200 me-10 sm:me-20 md:me-20 lg:me-20 '>➝</p>
+                    <p data-aos="zoom-in-up" className='text-end text-xs   sm:text-3xl md:text-3xl lg:text-3xl font-bold font-serif text-zinc-200 me-10 sm:me-20 md:me-20 lg:me-20 hover:text-zinc-600'>➝</p>
                 </div>
             </div>
             <div className='grid grid-cols-3 bg-black   ms-4 sm:ms-10 md:ms-10 lg:ms-10 me-4 sm:me-10 md:me-10 lg:me-10 border border-zinc-500 hover:cursor-pointer hover:bg-zinc-900'>
@@ -50,7 +50,7 @@ function Contact() {
                     <p data-aos="zoom-in-up" className='text-xs sm:text-lg md:text-xl lg:text-2xl font-serif font-bold text-zinc-200 text-center'>MVP SUTHARSON</p>
                 </div>
                 <div className='mt-7 mb-7 '>
-                    <p data-aos="zoom-in-up" className='text-end text-xs  sm:text-3xl md:text-3xl lg:text-3xl font-bold font-serif text-zinc-200 me-10 sm:me-20 md:me-20 lg:me-20 '>➝</p>
+                    <p data-aos="zoom-in-up" className='text-end text-xs  sm:text-3xl md:text-3xl lg:text-3xl font-bold font-serif text-zinc-200 me-10 sm:me-20 md:me-20 lg:me-20 hover:text-zinc-600'>➝</p>
                 </div>
             </div>
             <div className='grid grid-cols-3 bg-black   ms-4 sm:ms-10 md:ms-10 lg:ms-10 me-4 sm:me-10 md:me-10 lg:me-10 border border-zinc-500 hover:cursor-pointer hover:bg-zinc-900 '>
@@ -61,7 +61,7 @@ function Contact() {
                     <p data-aos="zoom-in-up" className='text-xs sm:text-lg md:text-2xl lg:text-2xl font-serif font-bold text-zinc-200 text-center'>MVPSUTHARON0 @GMAIL.COM</p>
                 </div>
                 <div className='mt-7  mb-7 '>
-                    <p data-aos="zoom-in-up" className='text-end text-xs  sm:text-3xl md:text-3xl lg:text-3xl font-bold font-serif text-zinc-200 me-10 sm:me-20 md:me-20 lg:me-20 '>➝</p>
+                    <p data-aos="zoom-in-up" className='text-end text-xs  sm:text-3xl md:text-3xl lg:text-3xl font-bold font-serif text-zinc-200 me-10 sm:me-20 md:me-20 lg:me-20 hover:text-zinc-600'>➝</p>
                 </div>
             </div>
             <div className='grid grid-cols-1 bg-black text-center  mt-20 sm:mt-30 md:mt-30 lg:mt-30'>

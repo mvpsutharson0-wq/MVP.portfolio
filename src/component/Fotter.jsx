@@ -1,4 +1,5 @@
 import React from 'react'
+import { BrowserRouter, Link, Route, Router, Routes } from 'react-router-dom'
 
 function Fotter() {
   return (
@@ -15,24 +16,40 @@ function Fotter() {
           </div>
           <div className=' text-center  sm:text-center md:text-center  lg:text-center mt-5 lg:mt-8 sm:mt-8 md:mt-8 container-fulid overflow-hidden '>
             <div>
-            <span className='text-xs sm:text-sm md:text-sm lg:text-sm font-serif text-zinc-500   font-bold'>ABOUT</span>
-            <span className='text-xs sm:text-sm md:text-sm lg:text-sm ms-6 sm:ms-6 lg:ms-6  md:ms-6 font-serif text-zinc-500  font-bold'>JOURNEY</span>
-            <span className='text-xs sm:text-sm md:text-sm lg:text-sm ms-6 sm:ms-6 lg:ms-6 md:ms-6 font-serif text-zinc-500  font-bold'>SKILLS</span>
-
+           <Link to='/'>
+           <span className='text-xs sm:text-sm md:text-sm lg:text-sm font-serif text-zinc-500   font-bold hover:text-zinc-300 hover:underline decoration-zinc-300'>HOME</span>
+           </Link> 
+           <Link to='/about'>
+           <span className='text-xs sm:text-sm md:text-sm lg:text-sm ms-6 sm:ms-6 lg:ms-6 md:ms-6 font-serif text-zinc-500 hover:text-zinc-300 font-bold hover:underline decoration-zinc-300'>ABOUT</span>
+           </Link>
+           <Link to='/journey'>
+           <span className='text-xs sm:text-sm md:text-sm lg:text-sm ms-6 sm:ms-6 lg:ms-6  md:ms-6 font-serif text-zinc-500 hover:text-zinc-300  font-bold hover:underline decoration-zinc-300'>JOURNEY</span>
+           </Link>
             </div>
 
            
             <div className='lg:mt-5 md:mt-5 sm:mt-5 mt-3'>
-              <span className='text-xs sm:text-sm md:text-sm lg:text-sm  text-zinc-500  font-bold'>PROJECTS</span>
-              <span className=' text-xs sm:text-sm md:text-sm lg:text-sm  ms-6 sm:ms-6 lg:ms-6 md:ms-6 font-serif text-zinc-500  font-bold'>EDUCATION</span>
-              <span className='text-xs sm:text-sm md:text-sm lg:text-sm ms-6 sm:ms-6 lg:ms-6 md:ms-6 font-serif text-zinc-500  font-bold'>TRAINING</span>
+              <Link to='/education'>
+              <span className=' text-xs sm:text-sm md:text-sm lg:text-sm  font-serif text-zinc-500 hover:text-zinc-300 hover:underline decoration-zinc-300 font-bold'>EDUCATION</span>
+              </Link>
+               <Link to='/skills'>
+              <span className='text-xs sm:text-sm md:text-sm lg:text-sm ms-6 sm:ms-6 lg:ms-6 md:ms-6 font-serif text-zinc-500 hover:text-zinc-300 hover:underline decoration-zinc-300 font-bold'>SKILLS</span>
+              </Link>
+              <Link to='/project'>
+              <span className='text-xs sm:text-sm md:text-sm lg:text-sm  ms-6 sm:ms-6 lg:ms-6 md:ms-6 text-zinc-500 hover:text-zinc-300 font-bold hover:underline decoration-zinc-300'>PROJECTS</span>
+              </Link>
+             
 
 
             </div>
             <div  className='lg:mt-5 md:mt-5 sm:mt-5 mt-3'>
-              <span className='text-xs sm:text-sm md:text-sm lg:text-sm  font-serif text-zinc-500  font-bold'>ACHIEVEMENTS</span>
-              <span className='text-xs sm:text-sm md:text-sm lg:text-sm ms-6 sm:ms-6 lg:ms-6 md:ms-6 font-serif text-zinc-500  font-bold'>RESUME</span>
-              <span className=' ms-6 sm:ms-6 lg:ms-6 md:ms-6 text-xs sm:text-sm md:text-sm lg:text-sm font-serif text-zinc-500  font-bold'>CONTACT</span>
+             
+              <Link to='/Resume.pdf'>
+              <span className='text-xs sm:text-sm md:text-sm lg:text-sm  font-serif text-zinc-500 hover:text-zinc-300 font-bold'>RESUME</span>
+              </Link>
+              <Link to='/contact'>
+              <span className=' ms-6 sm:ms-6 lg:ms-6 md:ms-6 text-xs sm:text-sm md:text-sm lg:text-sm font-serif text-zinc-500 hover:text-zinc-300 hover:underline decoration-zinc-300 font-bold'>CONTACT</span>
+              </Link>
             </div>
 
 

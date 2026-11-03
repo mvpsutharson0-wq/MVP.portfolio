@@ -25,10 +25,12 @@ function Intro() {
 
           <p data-aos="zoom-in-up" className='text-zinc-200 text-xl sm:text-2xl md:text-2xl lg:text-2xl mt-8 font-serif'>"I bring the same energy to code that i bring <br /> to the court."</p>
           <p data-aos="zoom-in-up" className='text-zinc-500 text-sm sm:text-lg md:text-lg lg:text-lg mt-5 font-serif'>I'm currently pursuing Python Full Stack Development at JClick <br /> Solutions, building my skills across frontend, databases <br /> and modern web technologiesl</p>
-
+<Link to='project'>
           <button data-aos="zoom-in-up" className='text-sm sm:text-md md:text-md lg:text-md  hover:cursor-pointer font-bold text-white border-2 px-5 py-3 mt-5 border-zinc-400 hover:bg-white hover:text-zinc-700 font-serif md:ms-1 sm:ms-0' >EXPLORE MY WORK ➝</button>
+</Link>
           <span>
-            <button data-aos="zoom-in-up" className='text-sm sm:text-md md:text-md lg:text-md  hover:cursor-pointer font-bold text-white border-2 px-5 py-3 mt-5 border-zinc-400  hover:bg-white hover:text-zinc-700 font-serif md:ms-1 sm:ms-5 lg:ms-5' ><a href="Resume.pdf"download='Resume.pdf'></a> DOWNLOAD RESUME ↓</button>
+            <button data-aos="zoom-in-up" className='text-sm sm:text-md md:text-md lg:text-md  hover:cursor-pointer font-bold text-white border-2 px-5 py-3 mt-5 border-zinc-400  hover:bg-white hover:text-zinc-700 font-serif md:ms-1 sm:ms-5 lg:ms-5' >
+              <a href="Resume.pdf" download='Resume.pdf'>DOWNLOAD RESUME ↓</a> </button>
           </span>
         </div>
         <div >
